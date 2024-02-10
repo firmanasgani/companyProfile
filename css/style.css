@@ -20,15 +20,13 @@ a {
 	clear: both;
 }
 
-
-
 header h1 {
-	float: left;
+	float: right;
 	padding:15px 0;
 	color: #40A2E3;
 }
 header ul {
-	float: right;
+	float: left;
 }
 header ul li {
 	display: inline-block;
