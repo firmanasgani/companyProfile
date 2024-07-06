@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#ceritanya">Ceritanya</a>
         <a href="#about">About</a>
       </div>
-      <div style={{ padding: "20px" }} className="banner">
+      <div className="banner">
         <h1>Welcome to Our Website</h1>
         <p className="text-title">We are absurd in our way</p>
         <p style={{marginTop: "20px"}}>
