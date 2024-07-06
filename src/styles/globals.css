@@ -9,7 +9,8 @@
 }
 
 .header {
-  background-color: aquamarine;
+  background-color: rgba(90, 96, 103, .8);
+  color: #f3f3f3;
   width: 100%;
   display: flex;
   justify-content: left;
@@ -24,17 +25,41 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 30px;
+  align-items: left;
   flex-direction: column;
+  gap: 10px;
 }
 
 .banner h1 {
-  font-size: 2.5rem;
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #fefefe;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-transform: capitalize;
+}
+
+.text-title {
+  font-size: 1.3rem;
+  text-transform: capitalize;
 }
 
 .header > a:hover {
   cursor: pointer;
   background-color: aqua;
+}
+
+.btn-cta {
+  width: 100px;
+  background-color: #fefefe;
+  border-color: #303030;
+  padding:  10px;
+  border-radius: 40px;
+}
+
+.btn-cta:hover {
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {
