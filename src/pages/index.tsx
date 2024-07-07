@@ -1,4 +1,6 @@
+import Carousels from "@/Components/Carousel";
 import Content from "@/Components/Content";
+import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import Head from "next/head";
 
@@ -12,7 +14,9 @@ export default function Home() {
         <link rel="icon" href="/logo-CITG.webp" />
       </Head>
       <Header />
+      {/* <Carousels /> */}
       <Content />
+      <Footer />
     </main>
   );
 }
