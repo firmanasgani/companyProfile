@@ -14,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/logo-CITG.webp" />
       </Head>
       <Header />
-      {/* <Carousels /> */}
       <Content />
       <Footer />
     </main>

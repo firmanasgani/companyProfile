@@ -36,7 +36,7 @@
   display: flex;
   justify-content: left;
   align-items: left;
-  padding: 200px;
+  padding: 100px;
   flex-direction: column;
   gap: 10px;
   min-height: 400px;
