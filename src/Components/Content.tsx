@@ -1,4 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
+import { motion } from 'framer-motion'
 import Image from "next/image";
 import logo from "@/assets/logo.webp"
 
@@ -6,10 +7,8 @@ export default function Content() {
   return (
     <div className="content">
         <div className="left-content">
-            <Image src={logo}
-            alt=""
-            width={300}
-            height={300} />
+          
+          
         </div>
       <div className="right-content">
       <h1 style={{ paddingTop: "5rem", fontWeight: "normal" }}>
